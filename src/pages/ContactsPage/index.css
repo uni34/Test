@@ -23,7 +23,7 @@
     background: #29293D;
     border-radius: 6px;
     width: 280px;
-    height: 60%;
+    height: 40px;
     color: #FFFFFF;
     border: none;
     padding: 10px;
@@ -32,9 +32,10 @@
 .search-icon{
     background: #29293D;
     cursor: pointer;
-    position: absolute;
-    top: 27px;
-    right: 320px;
+    position: relative;
+    height: 25px;
+    top: 8px;
+    right: 46px;
 }
 .search-icon:hover{
     opacity: .65;
