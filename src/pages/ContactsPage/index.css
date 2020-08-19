@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700;800&display=swap');
+.contacts{
+    font-family: "Open Sans";
+}
+.titlePanel{
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+}
+.contactRows{
+    display: flex;
+    border: #cccccc solid 1px;
+    color: #FFFFFF;
+    background: #2D2D42;
+}
+.contactRows:first-child{
+    border-radius: 7px 7px 0px 0px;
+}
+.contactRows:last-child{
+    border-radius: 0px 0px 7px 7px;
+}
+.search{
+    background: #29293D;
+    border-radius: 6px;
+    width: 280px;
+    height: 60%;
+    color: #FFFFFF;
+    border: none;
+    padding: 10px;
+    margin-top: 5px;
+}
+.search-icon{
+    background: #29293D;
+    cursor: pointer;
+    position: absolute;
+    top: 27px;
+    right: 320px;
+}
+.search-icon:hover{
+    opacity: .65;
+}
